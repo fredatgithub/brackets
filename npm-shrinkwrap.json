@@ -4108,11 +4108,6 @@
       "integrity": "sha1-j7+rsKmKJT0xhDMfno3rc3L6xsA=",
       "dev": true
     },
-    "nan": {
-      "version": "1.0.0",
-      "resolved": "https://registry.npmjs.org/nan/-/nan-1.0.0.tgz",
-      "integrity": "sha1-riT4hQgY1mL8q1rPfzuVv6oszzg="
-    },
     "nanomatch": {
       "version": "1.2.13",
       "resolved": "https://registry.npmjs.org/nanomatch/-/nanomatch-1.2.13.tgz",
@@ -7947,11 +7942,6 @@
         }
       }
     },
-    "tinycolor": {
-      "version": "0.0.1",
-      "resolved": "https://registry.npmjs.org/tinycolor/-/tinycolor-0.0.1.tgz",
-      "integrity": "sha1-MgtaUtg6u1l42Bo+iH1K77FaYWQ="
-    },
     "to-arraybuffer": {
       "version": "1.0.1",
       "resolved": "https://registry.npmjs.org/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz",
@@ -8111,6 +8101,11 @@
       "resolved": "https://registry.npmjs.org/uid-number/-/uid-number-0.0.5.tgz",
       "integrity": "sha1-Wj2yPvXb1VuB/ODsmirG/M3ruB4=",
       "dev": true
+    },
+    "ultron": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/ultron/-/ultron-1.0.2.tgz",
+      "integrity": "sha1-rOEWq1V80Zc4ak6I9GhTeMiy5Po="
     },
     "unc-path-regex": {
       "version": "0.1.2",
@@ -8456,21 +8451,12 @@
       }
     },
     "ws": {
-      "version": "0.4.32",
-      "resolved": "https://registry.npmjs.org/ws/-/ws-0.4.32.tgz",
-      "integrity": "sha1-eHphVEFPPJntg8V3IVOyD+sM7DI=",
+      "version": "1.1.5",
+      "resolved": "https://registry.npmjs.org/ws/-/ws-1.1.5.tgz",
+      "integrity": "sha512-o3KqipXNUdS7wpQzBHSe180lBGO60SoK0yVo3CYJgb2MkobuWuBX6dhkYP5ORCLd55y+SaflMOV5fqAB53ux4w==",
       "requires": {
-        "commander": "~2.1.0",
-        "nan": "~1.0.0",
         "options": ">=0.0.5",
-        "tinycolor": "0.x"
-      },
-      "dependencies": {
-        "commander": {
-          "version": "2.1.0",
-          "resolved": "https://registry.npmjs.org/commander/-/commander-2.1.0.tgz",
-          "integrity": "sha1-0SG7roYNmZKj1Re6lvVliOR8Z4E="
-        }
+        "ultron": "1.0.x"
       }
     },
     "xmldoc": {
